@@ -1,0 +1,51 @@
+Timestamp,FloodProbability,RiskLevel,RiskEmoji,Scenario,PredictionMethod,MonsoonIntensity,DrainageEfficiency,AlertIssued
+2025-10-09 03:16:11,0.3937515490418649,LOW,🟢,normal,Rule-based,2,8,False
+2025-10-09 03:16:41,0.4390836148496911,LOW,🟢,normal,Rule-based,6,10,False
+2025-10-09 03:17:11,0.4697284528688739,LOW,🟢,normal,Rule-based,8,11,False
+2025-10-09 03:17:21,0.4496587253019683,LOW,🟢,normal,Rule-based,7,12,False
+2025-10-09 03:17:31,0.4199987080695094,LOW,🟢,normal,Rule-based,2,10,False
+2025-10-09 03:17:41,0.48463308587890397,LOW,🟢,normal,Rule-based,4,12,False
+2025-10-09 03:17:51,0.48746446628127643,LOW,🟢,normal,Rule-based,3,13,False
+2025-10-09 03:18:01,0.4684685857534165,LOW,🟢,normal,Rule-based,6,13,False
+2025-10-09 03:18:11,0.44686987790974864,LOW,🟢,normal,Rule-based,6,12,False
+2025-10-09 03:18:21,0.44710691082650705,LOW,🟢,normal,Rule-based,4,13,False
+2025-10-09 03:18:31,0.45445624651626826,LOW,🟢,normal,Rule-based,3,13,False
+2025-10-09 03:18:41,0.451515421687678,LOW,🟢,normal,Rule-based,5,10,False
+2025-10-09 03:18:51,0.4058642906927123,LOW,🟢,normal,Rule-based,5,10,False
+2025-10-09 03:19:01,0.438618191357318,LOW,🟢,normal,Rule-based,4,13,False
+2025-10-09 03:19:11,0.4038898347453028,LOW,🟢,normal,Rule-based,2,11,False
+2025-10-09 03:19:21,0.478857244944146,LOW,🟢,normal,Rule-based,4,13,False
+2025-10-09 03:19:31,0.44094566089665094,LOW,🟢,normal,Rule-based,3,12,False
+2025-10-09 03:19:41,0.4458495309833839,LOW,🟢,normal,Rule-based,5,11,False
+2025-10-09 03:19:51,0.44432780559320784,LOW,🟢,normal,Rule-based,6,10,False
+2025-10-09 03:20:01,0.44598898033465745,LOW,🟢,normal,Rule-based,6,9,False
+2025-10-09 03:20:11,0.45306773945041,LOW,🟢,normal,Rule-based,8,10,False
+2025-10-09 03:20:21,0.46653895229104897,LOW,🟢,normal,Rule-based,8,11,False
+2025-10-09 03:20:31,0.4692170125552148,LOW,🟢,normal,Rule-based,8,9,False
+2025-10-09 03:20:41,0.47036972192248355,LOW,🟢,normal,Rule-based,8,8,False
+2025-10-09 03:20:51,0.4874950500786067,LOW,🟢,normal,Rule-based,8,8,False
+2025-10-09 03:21:01,0.4767989493739149,LOW,🟢,normal,Rule-based,8,8,False
+2025-10-09 03:21:11,0.47212866212430843,LOW,🟢,normal,Rule-based,8,8,False
+2025-10-09 03:21:21,0.46158348262479104,LOW,🟢,normal,Rule-based,8,8,False
+2025-10-09 04:27:21,0.4081039649923761,LOW,🟢,normal,Rule-based,4,9,False
+2025-10-09 04:45:28,0.4548378105730662,LOW,🟢,normal,Rule-based,7,9,False
+2025-10-09 04:48:32,0.5108466246453903,LOW,🟢,normal,Rule-based,7,10,False
+2025-10-09 04:48:40,0.4517812806146916,LOW,🟢,normal,Rule-based,4,11,False
+2025-10-09 04:51:31,0.41842366584972407,LOW,🟢,normal,Rule-based (fallback),5,9,False
+2025-10-09 04:51:31,0.44687046382754836,LOW,🟢,normal,Rule-based (fallback),2,13,False
+2025-10-09 04:51:31,0.4135510634531528,LOW,🟢,normal,Rule-based (fallback),2,9,False
+2025-10-09 04:52:01,0.3887025670308374,LOW,🟢,normal,Rule-based (fallback),2,8,False
+2025-10-09 04:52:01,0.42163899216924017,LOW,🟢,normal,Rule-based (fallback),2,10,False
+2025-10-09 04:52:01,0.4391488259914317,LOW,🟢,normal,Rule-based (fallback),3,12,False
+2025-10-09 04:52:31,0.4526820755451527,LOW,🟢,normal,Rule-based (fallback),4,13,False
+2025-10-09 04:52:31,0.4275850098109666,LOW,🟢,normal,Rule-based (fallback),3,8,False
+2025-10-09 04:52:31,0.4079741779596838,LOW,🟢,normal,Rule-based (fallback),2,9,False
+2025-10-09 04:59:45,0.5055466323073667,LOW,🟢,normal,Rule-based,7,12,False
+2025-10-09 05:00:15,0.5049719807306076,LOW,🟢,normal,Rule-based,6,12,False
+2025-10-09 05:00:45,0.4354293781629112,LOW,🟢,normal,Rule-based,3,9,False
+2025-10-09 05:42:53,0.5753208709583642,MILD,🟡,normal,Previous Model Prediction,6,11,False
+2025-10-09 05:43:23,0.6042650330768715,HIGH,🟠,normal,Previous Model Prediction,7,10,True
+2025-10-09 05:43:53,0.5937331091051989,MILD,🟡,normal,Previous Model Prediction,8,8,False
+2025-10-09 05:49:10,0.41786400630880005,MILD,🟡,normal,Previous Model Prediction,6,11,False
+2025-10-09 05:49:40,0.4018727743594288,MILD,🟡,normal,Previous Model Prediction,4,12,False
+2025-10-09 05:50:10,0.37657417250879244,LOW,🟢,normal,Previous Model Prediction,3,14,False

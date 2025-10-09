@@ -1,0 +1,35 @@
+{
+  "session_start": "2025-10-09T03:01:52.358512",
+  "session_end": "2025-10-09T03:02:10.662422",
+  "total_readings": 1,
+  "alerts": [
+    {
+      "timestamp": "2025-10-09 03:01:52",
+      "risk_level": "SEVERE",
+      "probability": 0.85,
+      "emoji": "\ud83d\udd34",
+      "sensor_reading": [
+        16,
+        1,
+        4,
+        10,
+        7
+      ]
+    }
+  ],
+  "risk_summary": {
+    "counts": {
+      "LOW": 0,
+      "MILD": 0,
+      "HIGH": 0,
+      "SEVERE": 1
+    },
+    "percentages": {
+      "LOW": 0.0,
+      "MILD": 0.0,
+      "HIGH": 0.0,
+      "SEVERE": 100.0
+    },
+    "total_readings": 1
+  }
+}
