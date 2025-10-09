@@ -42,3 +42,6 @@ node_modules/
 # Build directories
 dist/
 build/
+
+# Mobile app directory (development in progress)
+mobile-app/
