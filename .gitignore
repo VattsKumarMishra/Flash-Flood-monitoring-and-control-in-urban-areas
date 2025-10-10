@@ -43,5 +43,7 @@ node_modules/
 dist/
 build/
 
-# Mobile app directory (development in progress)
-mobile-app/
+# Mobile app development files (keep source code, ignore build artifacts)
+mobile-app/node_modules/
+mobile-app/.expo/
+mobile-app/dist/

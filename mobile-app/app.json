@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "mobile-app-new",
+    "slug": "mobile-app-new",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "WAKE_LOCK",
+        "ACCESS_NOTIFICATION_POLICY"
+      ],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "color": "#000000",
+      "sound": "default",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Flood Alert"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
