@@ -7,6 +7,7 @@ import FloodMap from './FloodMap.tsx';
 import AlertsComponent from './AlertsComponent';
 import AlertPortal from './AlertPortal';
 import SystemControls from './SystemControls.tsx';
+import CrisisManagement from './CrisisManagement.tsx';
 import { floodAPI, type FloodData } from '../services/api.ts';
 
 interface SensorData {
@@ -42,7 +43,7 @@ const FloodMonitoringDashboard: React.FC = () => {
   const [sensors, setSensors] = useState<SensorData[]>([]);
   const [alerts, setAlerts] = useState<Alert[]>([]);
   const [isMonitoring, setIsMonitoring] = useState(false);
-  const [activeTab, setActiveTab] = useState<'overview' | 'map' | 'sensors' | 'alerts' | 'portal' | 'controls'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'map' | 'sensors' | 'alerts' | 'portal' | 'controls' | 'crisis'>('overview');
 
   // Initialize sensor locations for Dehradun
   const initializeSensors = (): SensorData[] => {
@@ -128,7 +129,7 @@ const FloodMonitoringDashboard: React.FC = () => {
   };
 
   // Automatic alert triggering function
-  const triggerAutoAlerts = async (riskLevel: string, floodProbability: number) => {
+  const triggerAutoAlerts = async (riskLevel: string, _floodProbability: number) => {
     try {
       console.log(`🚨 Auto-triggering alerts for ${riskLevel} risk level...`);
       const response = await fetch('http://localhost:8000/api/alerts/auto-send', {
@@ -333,6 +334,8 @@ const FloodMonitoringDashboard: React.FC = () => {
             onRefreshConnection={handleRefreshConnection}
           />
         );
+      case 'crisis':
+        return <CrisisManagement />;
       default:
         return null;
     }
@@ -362,6 +365,7 @@ const FloodMonitoringDashboard: React.FC = () => {
                 { id: 'alerts', label: 'Alerts', icon: '⚠️' },
                 { id: 'portal', label: 'Alert Portal', icon: '📱' },
                 { id: 'controls', label: 'Controls', icon: '⚙️' },
+                { id: 'crisis', label: 'Crisis Management', icon: '🚨' },
               ].map((tab) => (
                 <button
                   key={tab.id}
